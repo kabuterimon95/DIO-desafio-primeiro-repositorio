@@ -1,0 +1,12 @@
+Link download Git: https://git-scm.com/downloads
+-- O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Comandos terminal Git Bash
+- git status > verifica qual a situação do repositório local
+- git add * ou -A ou . >  adiciona arquivos/pastas no controle de versão
+
+
+Portugol WebStudio, IDE de código aberto para programar em Portugol direto de seu navegador.
+https://portugol-webstudio.cubos.io/
+
+
