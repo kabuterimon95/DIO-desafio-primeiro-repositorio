@@ -39,7 +39,7 @@ Comandos Git
 - git push origin main (ou master) = envia (empurra) todos os "commits"(arquivos) criados localmente para o servidor/nuvem (GitHub)
 - git pull origin main (ou master) = traz (puxa) os arquivos do servidor/nuvem (GitHub) para nossa máquina
 - git add nomeArquivo = adiciona um arquivo no diretório
-- git config –list = trás a lista de todas as configurações do git, como username e e-mail
+- git config –-list = trás a lista de todas as configurações do git, como username e e-mail
 - git config –unset user.email = desvincula o e-mail vinculado ao git
 - git config –unset user.name = desvincula o username vinculado ao git
 - git config user.email “email@usuario” = vincular um novo e-mail
