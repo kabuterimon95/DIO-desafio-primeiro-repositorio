@@ -1,0 +1,56 @@
+Link download Git: https://git-scm.com/downloads
+-- O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Comandos gerais, terminal Windows
+- cd = navega nas pastas do disco
+- dir = lista todos os diretórios e arquivos disponíveis na pasta
+- mkdir = cria um novo diretório
+- del “nome da pasta/arquivo” = deleta os arquivos dentro pasta
+- rmdir = remove o diretório. Ex: rmdir workspace /S /Q
+- TAB = ele completa o nome. Ex: cd Wi + tab = cd Windows
+- Echo “frase ou palavra” = retornar uma frase. Ex: echo Hello
+- echo > = redirecionador de fluxo. Vai pegar o que foi escrito pelo echo e enviar para algum arquivo específico. Se não existir, ele irá criar um. Ex: echo Hello > hello.txt
+- cd .. = volta um repositório
+- cls = limpar a tela do prompt de comando (Windows)
+- Ctrl + l = limpar tela (apenas git e Unix)
+- ↑(seta p/ cima) = histórico dos comandos usados
+- pwd = comando para mostrar o diretório completo
+- ls = lista o conteúdo
+- mv = mv “arquivo” ./”diretório”
+
+
+Comandos gerais, terminal Unix/Git
+- cd = navega nas pastas do disco
+- ls = lista todos os diretórios e arquivos disponíveis na pasta
+- ls -a = lista diretórios/arquivos ocultos na pasta
+- mkdir = cria um novo diretório
+- rm -rf = apaga e remove, diretórios e arquivos. Ex: "rm -rf workspace/"
+- echo = retornar uma frase. Ex: echo Hello
+- echo > = redirecionador de fluxo. Vai pegar o que foi escrito pelo echo e enviar para algum arquivo específico. Se não existir, ele irá criar um. Ex: echo Hello > hello.txt
+- cd .. = volta um repositório
+- clear = limpar a tela do prompt de comando (unix)
+
+
+Comandos Git 
+- git init = inicializa um repositório Git / cria um diretório oculto dentro daquela pasta ".git"
+- git add * ou -A ou . =  adiciona arquivos/pastas no controle de versão. Move o arquivo untracked e o modified direto para o staged / transforma o arquivo untracked e modified para stage area
+- git commit -m “msg” = coloca mensagem coerente para realizar o commit. Reunimos todos os arquivos que estavam em staged, criamos uma mensagem para dar significância a eles e cria-se o objeto commit
+- git status = verifica qual a situação do repositório local
+- git push origin main (ou master) = envia (empurra) todos os "commits"(arquivos) criados localmente para o servidor/nuvem (GitHub)
+- git pull origin main (ou master) = traz (puxa) os arquivos do servidor/nuvem (GitHub) para nossa máquina
+- git add nomeArquivo = adiciona um arquivo no diretório
+- git config –list = trás a lista de todas as configurações do git, como username e e-mail
+- git config –unset user.email = desvincula o e-mail vinculado ao git
+- git config –unset user.name = desvincula o username vinculado ao git
+- git config user.email “email@usuario” = vincular um novo e-mail
+- git config --global user.email “email@usuario” = vincula um novo e-mail
+- git config --global user.name “nomeusuario” = vincula um novo nome de usuário
+- git remote -v = aponta o link do diretório remoto
+- git clone “link repositório no github” = “clona” o repositório do github para o seu git
+
+
+
+
+
+
+
